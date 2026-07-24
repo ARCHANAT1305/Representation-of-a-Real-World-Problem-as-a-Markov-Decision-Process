@@ -8,9 +8,12 @@ To identify a real-world sequential decision-making problem and represent it for
 ## Problem Statement
 A smart phone feature that manages background apps to save battery while keeping the phone fast and smooth throughout the day, even with unpredictable user habits.
 
-
-
-
+## PROBLEM DESCRIPTION
+Smartphones need to keep apps running in the background for features like notifications and navigation, but these apps constantly drain the battery and slow down the phone. 
+Because everyone uses their phone differently throughout the day, standard background settings either: 
+Close apps too aggressively — causing missed alerts and broken background features. 
+Allow too much background activity — causing battery drain, lag, and overheating. 
+The Challenge: Managing background apps automatically so the phone stays fast and lasts all day, no matter how unpredictable the user's habits are. 
 
 ## MDP Components
 
@@ -128,12 +131,13 @@ Penalty reward of -100.
 
 ## Graphical Representation
 
+<img width="1082" height="443" alt="image" src="https://github.com/user-attachments/assets/a27671f5-8163-4c45-97d0-0026282f953c" />
 
 
----
 
 ## Python Representation
-
+### NAME: ARCHANA T
+### REGISTER NUMBER : 212223240013
 
 
 ```python
@@ -166,9 +170,6 @@ battery_mdp = {
     'discount_factor': 0.90
 }
 
-print("Name: ")
-print("Register Number: ")
-print()
 
 print("--- MDP STATE SPACE ---")
 print(f"S = {battery_mdp['states']}\n")
@@ -196,6 +197,5 @@ print(f"\nDiscount Factor (gamma): {battery_mdp['discount_factor']}")
 ## Result
 
 
-The real-world problem of smartphone battery management was successfully identified and formally mapped to a Markov Decision Process (MDP). The environment structure, state transitions, actions, and rewards were modeled logically and validated programmatically via a Python nested dictionary architecture.
-
+The real-world problem of smartphone battery management was successfully identified and formally mapped to a Markov Decision Process.
 
